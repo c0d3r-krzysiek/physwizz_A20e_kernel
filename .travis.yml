@@ -8,9 +8,9 @@ addons:
 script :
 - git config --global user.name "John Doe"
 - git config --global user.email johndoe@example.com
-git clone https://github.com/roynatech2544/physwizz_Permissive_A20e_kernel -b android-10.0
-cd physwizz_Permissive_A20e_kernel
-./build_kernel.sh
+- git clone https://github.com/roynatech2544/physwizz_Permissive_A20e_kernel -b android-10.0
+- cd physwizz_Permissive_A20e_kernel
+- ./build_kernel.sh
 after_success :
 - cd arch/arm64/boot
 - curl -F "file=@Image" https://file.io/?expires=1w
