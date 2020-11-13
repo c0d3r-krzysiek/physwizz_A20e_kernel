@@ -5,6 +5,8 @@ dist : focal
 addons:
      apt :
      - git
+     - bc
+     - bison
 script :
 - git config --global user.name "John Doe"
 - git config --global user.email johndoe@example.com
