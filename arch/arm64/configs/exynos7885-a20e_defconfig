@@ -505,7 +505,7 @@ CONFIG_RANDOMIZE_MODULE_REGION_FULL=y
 #
 # Boot options
 #
-CONFIG_CMDLINE=""
+CONFIG_CMDLINE="enforcing=0 androidboot.selinux=permissive
 # CONFIG_EFI is not set
 # CONFIG_TIMA is not set
 # CONFIG_TIMA_LKMAUTH is not set
